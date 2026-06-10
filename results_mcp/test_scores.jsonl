@@ -33,10 +33,10 @@
 {"model": "gpt-5", "language": "typescript", "rep": 2, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "typescript", "rep": 3, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "typescript", "rep": 4, "passed": 53, "total": 53}
-{"model": "gpt-5", "language": "typescript", "rep": 5, "passed": 0, "total": 0, "error": "server_fail"}
-{"model": "gpt-5", "language": "typescript", "rep": 6, "passed": 0, "total": 0, "error": "server_fail"}
+{"model": "gpt-5", "language": "typescript", "rep": 5, "passed": 53, "total": 53}
+{"model": "gpt-5", "language": "typescript", "rep": 6, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "typescript", "rep": 7, "passed": 53, "total": 53}
-{"model": "gpt-5", "language": "typescript", "rep": 8, "passed": 0, "total": 0, "error": "server_fail"}
+{"model": "gpt-5", "language": "typescript", "rep": 8, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "typescript", "rep": 9, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "java", "rep": 1, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "java", "rep": 10, "passed": 53, "total": 53}
@@ -61,7 +61,7 @@
 {"model": "gpt-5", "language": "scala", "rep": 1, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 10, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 2, "passed": 0, "total": 0, "error": "server_fail"}
-{"model": "gpt-5", "language": "scala", "rep": 3, "passed": 0, "total": 0, "error": "server_fail"}
+{"model": "gpt-5", "language": "scala", "rep": 3, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 4, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 5, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 6, "passed": 53, "total": 53}
@@ -74,10 +74,10 @@
 {"model": "gpt-5", "language": "rust", "rep": 3, "passed": 51, "total": 53}
 {"model": "gpt-5", "language": "rust", "rep": 4, "passed": 51, "total": 53}
 {"model": "gpt-5", "language": "rust", "rep": 5, "passed": 51, "total": 53}
-{"model": "gpt-5", "language": "rust", "rep": 6, "passed": 0, "total": 53, "error": "no_run_sh"}
+{"model": "gpt-5", "language": "rust", "rep": 6, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "rust", "rep": 7, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "rust", "rep": 8, "passed": 51, "total": 53}
-{"model": "gpt-5", "language": "rust", "rep": 9, "passed": 0, "total": 53, "error": "no_run_sh"}
+{"model": "gpt-5", "language": "rust", "rep": 9, "passed": 52, "total": 53}
 {"model": "gpt-5", "language": "c", "rep": 1, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "c", "rep": 2, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "c", "rep": 4, "passed": 53, "total": 53}
