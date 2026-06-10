@@ -1,0 +1,23 @@
+# Build artifacts
+node_modules/
+target/
+__pycache__/
+.cache/
+.bloop/
+.metals/
+.bsp/
+.scala-build/
+dist-newstyle/
+.cabal/
+venv/
+.venv/
+.mypy_cache/
+*.o
+*.so
+*.a
+*.dylib
+*.class
+*.jar
+
+# Secrets
+.env

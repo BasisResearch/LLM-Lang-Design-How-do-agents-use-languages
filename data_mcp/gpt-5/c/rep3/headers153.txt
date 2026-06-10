@@ -1,0 +1,6 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: application/json
+Content-Length: 26
+Set-Cookie: session_id=600a63111beef3bf45efb2df02e8d4e9be7901eb9bf48c688f562863faf2514f; Path=/; HttpOnly
+

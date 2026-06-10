@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Server: Werkzeug/3.1.8 Python/3.14.4
+Date: Mon, 08 Jun 2026 20:29:58 GMT
+Content-Type: application/json
+Content-Length: 28
+Set-Cookie: session_id=1de697c2dc05f9ce5357539d9c97b3b3; HttpOnly; Path=/
+Connection: close
+

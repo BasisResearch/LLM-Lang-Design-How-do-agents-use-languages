@@ -1,0 +1,22 @@
+{
+  "name": "todo-server-ts",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx watch src/server.ts",
+    "test": "bash test.sh"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "tsx": "^4.7.3",
+    "typescript": "^5.4.5"
+  }
+}

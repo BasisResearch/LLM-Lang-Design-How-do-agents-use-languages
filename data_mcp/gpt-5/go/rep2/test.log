@@ -1,0 +1,67 @@
+++ pick_port
+++ for i in {1..50}
++++ shuf -i 20000-60000 -n 1
+++ P=42853
+++ awk '{print $4}'
+++ ss -ltn
+++ grep -q ':42853$'
+++ echo 42853
+++ return 0
++ PORT=42853
++ JAR=cookie.jar
++ JAR2=cookie2.jar
++ rm -f cookie.jar cookie2.jar
++ pkill -x server
++ SERVER_PID=2825553
++ trap 'kill $SERVER_PID || true' EXIT
++ bash ./run.sh --port 42853
++ wait_for
++ for i in {1..100}
+++ curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:42853/me
+++ true
++ code=000
++ [[ 000 != 000 ]]
++ sleep 0.1
+2026/06/08 16:50:07 Listening on 0.0.0.0:42853
++ for i in {1..100}
+++ curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:42853/me
++ code=401
++ [[ 401 != 000 ]]
++ return 0
+++ curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:42853/me
++ code=401
++ [[ 401 == 401 ]]
+++ curl -s -X POST -H 'Content-Type: application/json' -d '{"username":"alice","password":"password123"}' http://127.0.0.1:42853/register
++ resp='{"id":1,"username":"alice"}'
++ echo '{"id":1,"username":"alice"}'
++ jq -e '.id==1 and .username=="alice"'
+++ curl -s -o /dev/null -w '%{http_code}' -X POST -H 'Content-Type: application/json' -d '{"username":"alice","password":"anotherpass"}' http://127.0.0.1:42853/register
++ code=409
++ [[ 409 == 409 ]]
+++ curl -s -o /dev/null -w '%{http_code}' -X POST -H 'Content-Type: application/json' -d '{"username":"alice","password":"wrong"}' http://127.0.0.1:42853/login
++ code=401
++ [[ 401 == 401 ]]
++ curl -s -c cookie.jar -X POST -H 'Content-Type: application/json' -d '{"username":"alice","password":"password123"}' http://127.0.0.1:42853/login
++ jq -e '.id==1 and .username=="alice"'
++ curl -s -b cookie.jar http://127.0.0.1:42853/me
++ jq -e '.id==1 and .username=="alice"'
+++ curl -s -b cookie.jar -o /dev/null -w '%{http_code}' -X PUT -H 'Content-Type: application/json' -d '{"old_password":"bad","new_password":"newpassword123"}' http://127.0.0.1:42853/password
++ code=401
++ [[ 401 == 401 ]]
+++ curl -s -b cookie.jar -o /dev/null -w '%{http_code}' -X PUT -H 'Content-Type: application/json' -d '{"old_password":"password123","new_password":"short"}' http://127.0.0.1:42853/password
++ code=400
++ [[ 400 == 400 ]]
+++ curl -s -b cookie.jar -o /dev/null -w '%{http_code}' -X PUT -H 'Content-Type: application/json' -d '{"old_password":"password123","new_password":"newpassword123"}' http://127.0.0.1:42853/password
++ code=200
++ [[ 200 == 200 ]]
+++ curl -s -b cookie.jar -o /dev/null -w '%{http_code}' -X POST http://127.0.0.1:42853/logout
++ code=200
++ [[ 200 == 200 ]]
+++ curl -s -b cookie.jar -o /dev/null -w '%{http_code}' http://127.0.0.1:42853/me
++ code=401
++ [[ 401 == 401 ]]
++ curl -s -c cookie.jar -X POST -H 'Content-Type: application/json' -d '{"username":"alice","password":"newpassword123"}' http://127.0.0.1:42853/login
++ jq -e .id==1
++ curl -s -b cookie.jar http://127.0.0.1:42853/todos
++ jq -e 'type=="array" and length==0'
++ kill 2825553

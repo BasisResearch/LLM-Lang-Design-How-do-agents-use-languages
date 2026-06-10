@@ -1,0 +1,9 @@
+main.c: In function ‘parse_request’:
+main.c:528:5: warning: ‘__builtin_strncpy’ output may be truncated copying 7 bytes from a string of length 7 [-Wstringop-truncation]
+  528 |     strncpy(req->method, method, sizeof(req->method)-1);
+      |     ^
+main.c:529:5: warning: ‘__builtin_strncpy’ output may be truncated copying 255 bytes from a string of length 255 [-Wstringop-truncation]
+  529 |     strncpy(req->path, path, sizeof(req->path)-1);
+      |     ^
+Server listening on 0.0.0.0:18084
+Terminated                 ./server --port "$PORT"
