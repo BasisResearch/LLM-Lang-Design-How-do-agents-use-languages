@@ -60,7 +60,7 @@
 {"model": "gpt-5", "language": "go", "rep": 9, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 1, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 10, "passed": 53, "total": 53}
-{"model": "gpt-5", "language": "scala", "rep": 2, "passed": 0, "total": 0, "error": "server_fail"}
+{"model": "gpt-5", "language": "scala", "rep": 2, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 3, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 4, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 5, "passed": 53, "total": 53}
@@ -81,7 +81,7 @@
 {"model": "gpt-5", "language": "c", "rep": 1, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "c", "rep": 2, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "c", "rep": 4, "passed": 53, "total": 53}
-{"model": "gpt-5", "language": "c", "rep": 5, "passed": 0, "total": 0, "error": "server_fail"}
+{"model": "gpt-5", "language": "c", "rep": 5, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "c", "rep": 6, "passed": 53, "total": 53}
-{"model": "gpt-5", "language": "c", "rep": 8, "passed": 0, "total": 0, "error": "server_fail"}
+{"model": "gpt-5", "language": "c", "rep": 8, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "c", "rep": 9, "passed": 53, "total": 53}

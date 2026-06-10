@@ -15,8 +15,8 @@ done
 WORKDIR=$(dirname "$RUN_SCRIPT")
 cd "$WORKDIR"
 
-# If run.sh handles --port natively (parses flags or uses $@), pass --port
-if grep -qE '(\$@|getopts|while.*case|"--port"|--port\))' "$RUN_SCRIPT" 2>/dev/null; then
+# If run.sh mentions --port anywhere, pass --port flag
+if grep -q "\-\-port" "$RUN_SCRIPT" 2>/dev/null; then
     exec bash "$RUN_SCRIPT" --port "$PORT"
 else
     exec bash "$RUN_SCRIPT" "$PORT"
