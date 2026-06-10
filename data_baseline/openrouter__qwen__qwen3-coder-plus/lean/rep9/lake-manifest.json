@@ -1,0 +1,16 @@
+{"version": "1.2.0",
+ "packagesDir": ".lake/packages",
+ "packages":
+ [{"url": "https://github.com/leanprover/std4",
+   "type": "git",
+   "subDir": null,
+   "scope": "",
+   "rev": "32dc18cde3684679f3c003de608743b57498c56f",
+   "name": "std",
+   "manifestFile": "lake-manifest.json",
+   "inputRev": "v4.30.0",
+   "inherited": false,
+   "configFile": "lakefile.toml"}],
+ "name": "«todo-app»",
+ "lakeDir": ".lake",
+ "fixedToolchain": false}

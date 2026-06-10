@@ -1,0 +1,12 @@
+{
+  "input_tokens": 599424,
+  "output_tokens": 24696,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 624120,
+  "turns": 27,
+  "status": "completed",
+  "model": "openrouter/qwen/qwen3.7-plus",
+  "language": "typescript",
+  "duration_seconds": 858.1332144737244
+}

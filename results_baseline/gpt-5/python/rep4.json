@@ -1,0 +1,12 @@
+{
+  "input_tokens": 117242,
+  "output_tokens": 12646,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 129888,
+  "turns": 14,
+  "status": "completed",
+  "model": "gpt-5",
+  "language": "python",
+  "duration_seconds": 204.03888702392578
+}

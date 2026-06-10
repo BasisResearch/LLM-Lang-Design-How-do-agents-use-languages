@@ -1,0 +1,13 @@
+{
+  "name": "todo-app-server",
+  "version": "1.0.0",
+  "description": "REST API server for managing personal todo items with cookie-based authentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "crypto": "^1.0.1"
+  }
+}

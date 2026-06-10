@@ -1,0 +1,14 @@
+{
+  "name": "todo-app-server",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

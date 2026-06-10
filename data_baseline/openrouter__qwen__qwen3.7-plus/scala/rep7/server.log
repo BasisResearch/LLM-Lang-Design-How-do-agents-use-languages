@@ -1,0 +1,109 @@
+[90mCompiling project (Scala 3.3.1, JVM (17))[0m
+[[31merror[0m] ./Main.scala:164:34
+[[31merror[0m] None of the overloaded alternatives of [33mmethod[0m [35mapply[0m in [33mtrait[0m [35mWwwAuthenticateResponseGenerator[0m with types
+[[31merror[0m]  [A]
+[[31merror[0m]   (authenticate: org.http4s.headers.WWW-Authenticate, body: A, headers:
+[[31merror[0m]     org.http4s.Header.ToRaw*)
+[[31merror[0m]     ([33mimplicit [0mF: cats.Applicative[cats.effect.IO], w:
+[[31merror[0m]       org.http4s.EntityEncoder[cats.effect.IO, A]):
+[[31merror[0m]       cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]  (authenticate: org.http4s.headers.WWW-Authenticate, headers:
+[[31merror[0m]   org.http4s.Header.ToRaw*)
+[[31merror[0m]   ([33mimplicit [0mF: cats.Applicative[cats.effect.IO]):
+[[31merror[0m]     cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m] match arguments ()
+[[31merror[0m]   def unauthResp: Response[IO] = Unauthorized().withEntity(ErrorResponse("Authentication required").asJson)
+[[31merror[0m]                                  ^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:165:40
+[[31merror[0m] None of the overloaded alternatives of [33mmethod[0m [35mapply[0m in [33mtrait[0m [35mWwwAuthenticateResponseGenerator[0m with types
+[[31merror[0m]  [A]
+[[31merror[0m]   (authenticate: org.http4s.headers.WWW-Authenticate, body: A, headers:
+[[31merror[0m]     org.http4s.Header.ToRaw*)
+[[31merror[0m]     ([33mimplicit [0mF: cats.Applicative[cats.effect.IO], w:
+[[31merror[0m]       org.http4s.EntityEncoder[cats.effect.IO, A]):
+[[31merror[0m]       cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]  (authenticate: org.http4s.headers.WWW-Authenticate, headers:
+[[31merror[0m]   org.http4s.Header.ToRaw*)
+[[31merror[0m]   ([33mimplicit [0mF: cats.Applicative[cats.effect.IO]):
+[[31merror[0m]     cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m] match arguments ()
+[[31merror[0m]   def invalidCredsResp: Response[IO] = Unauthorized().withEntity(ErrorResponse("Invalid credentials").asJson)
+[[31merror[0m]                                        ^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:175:13
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]             BadRequest().withEntity(ErrorResponse("Invalid username").asJson)
+[[31merror[0m]             ^^^^^^^^^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:177:13
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]             BadRequest().withEntity(ErrorResponse("Password too short").asJson)
+[[31merror[0m]             ^^^^^^^^^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:180:15
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]               Conflict().withEntity(ErrorResponse("Username already exists").asJson)
+[[31merror[0m]               ^^^^^^^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:185:15
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]               Created().withEntity(UserResponse(id, newUser.username).asJson)
+[[31merror[0m]               ^^^^^^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:202:15
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]               Ok().withEntity(UserResponse(user.id, user.username).asJson).map(_.addCookie(cookie))
+[[31merror[0m]               ^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:218:17
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]                 Ok().withEntity(Json.obj()).map(_.addCookie(clearCookie))
+[[31merror[0m]                 ^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:220:17
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]                 Ok().withEntity(Json.obj())
+[[31merror[0m]                 ^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:231:27
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]           case Some(u) => Ok().withEntity(UserResponse(u.id, u.username).asJson)
+[[31merror[0m]                           ^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:247:15
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]               BadRequest().withEntity(ErrorResponse("Password too short").asJson)
+[[31merror[0m]               ^^^^^^^^^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:251:15
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]               Ok().withEntity(Json.obj())
+[[31merror[0m]               ^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:268:13
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]             Ok().withEntity(userTodos.asJson)
+[[31merror[0m]             ^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:282:15
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]               BadRequest().withEntity(ErrorResponse("Title is required").asJson)
+[[31merror[0m]               ^^^^^^^^^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:296:15
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]               Created().withEntity(TodoResponse(newTodo.id, newTodo.title, newTodo.description, newTodo.completed, newTodo.createdAt, newTodo.updatedAt).asJson)
+[[31merror[0m]               ^^^^^^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:309:17
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]                 Ok().withEntity(TodoResponse(t.id, t.title, t.description, t.completed, t.createdAt, t.updatedAt).asJson)
+[[31merror[0m]                 ^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:311:17
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]                 NotFound().withEntity(ErrorResponse("Todo not found").asJson)
+[[31merror[0m]                 ^^^^^^^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:326:19
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]                   BadRequest().withEntity(ErrorResponse("Title is required").asJson)
+[[31merror[0m]                   ^^^^^^^^^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:338:19
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]                   Ok().withEntity(TodoResponse(updatedTodo.id, updatedTodo.title, updatedTodo.description, updatedTodo.completed, updatedTodo.createdAt, updatedTodo.updatedAt).asJson)
+[[31merror[0m]                   ^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:341:17
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]                 NotFound().withEntity(ErrorResponse("Todo not found").asJson)
+[[31merror[0m]                 ^^^^^^^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:357:17
+[[31merror[0m] value withEntity is not a member of cats.effect.IO[org.http4s.Response[cats.effect.IO]]
+[[31merror[0m]                 NotFound().withEntity(ErrorResponse("Todo not found").asJson)
+[[31merror[0m]                 ^^^^^^^^^^^^^^^^^^^^^
+[90mError compiling project (Scala 3.3.1, JVM (17))[0m
+Compilation failed

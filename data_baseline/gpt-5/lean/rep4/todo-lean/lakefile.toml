@@ -1,0 +1,20 @@
+name = "todo-lean"
+version = "0.1.0"
+defaultTargets = ["todo-lean"]
+
+author = ""
+license = ""
+
+[[require]]
+name = "std"
+git = "https://github.com/leanprover/std4"
+rev = "v4.30.0"
+
+[[lean_lib]]
+name = "TodoLean"
+
+autoImplicit = true
+
+[[lean_exe]]
+name = "todo-lean"
+root = "Main"

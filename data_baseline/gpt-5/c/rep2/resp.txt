@@ -1,0 +1,6 @@
+HTTP/1.1 400 Bad Request
+Date: Sat, 06 Jun 2026 00:28:07 GMT
+Content-Type: application/json
+Content-Length: 24
+
+{"error":"Invalid JSON"}

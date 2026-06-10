@@ -1,0 +1,38 @@
+warning: unused import: `Serialize`
+ --> src/bin/tester.rs:4:26
+  |
+4 | use serde::{Deserialize, Serialize};
+  |                          ^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: field `id` is never read
+ --> src/bin/tester.rs:7:15
+  |
+7 | struct User { id: u64, username: String }
+  |        ----   ^^
+  |        |
+  |        field in this struct
+  |
+  = note: `User` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+  = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: fields `title`, `description`, `created_at`, and `updated_at` are never read
+  --> src/bin/tester.rs:10:24
+   |
+10 | struct Todo { id: u64, title: String, description: String, completed: bool, created_at: String, updated_at: String }
+   |        ----            ^^^^^          ^^^^^^^^^^^                           ^^^^^^^^^^          ^^^^^^^^^^
+   |        |
+   |        fields in this struct
+   |
+   = note: `Todo` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+
+warning: struct `ErrorResp` is never constructed
+  --> src/bin/tester.rs:13:8
+   |
+13 | struct ErrorResp { error: String }
+   |        ^^^^^^^^^
+
+warning: `todo_server` (bin "tester") generated 4 warnings (run `cargo fix --bin "tester" -p todo_server` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.11s
+listening on 0.0.0.0:8091

@@ -1,0 +1,12 @@
+{
+  "input_tokens": 88586,
+  "output_tokens": 4201,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 92787,
+  "turns": 17,
+  "status": "completed",
+  "model": "gpt-4o",
+  "language": "java",
+  "duration_seconds": 175.52164721488953
+}

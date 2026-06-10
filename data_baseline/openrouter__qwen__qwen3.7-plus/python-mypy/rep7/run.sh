@@ -1,0 +1,11 @@
+#!/bin/bash
+PORT=8000
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        --port) PORT="$2"; shift ;;
+        *) echo "Unknown parameter: $1"; exit 1 ;;
+    esac
+    shift
+done
+
+exec python3 server.py --port "$PORT"

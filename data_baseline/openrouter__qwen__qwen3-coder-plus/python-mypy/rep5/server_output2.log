@@ -1,0 +1,2 @@
+Starting server on 0.0.0.0:9000
+127.0.0.1 - - [04/Jun/2026 23:01:11] "GET /register HTTP/1.1" 404 -

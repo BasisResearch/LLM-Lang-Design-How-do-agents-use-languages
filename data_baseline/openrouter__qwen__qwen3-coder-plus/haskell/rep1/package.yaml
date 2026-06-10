@@ -1,0 +1,63 @@
+name:                todo-api
+version:             0.1.0.0
+github:              "githubuser/todo-api"
+license:             BSD3
+author:              "Author name"
+maintainer:          "example@example.com"
+copyright:           "2023 Author name"
+
+extra-source-files:
+- README.md
+- CHANGELOG.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of lib checks, it is recommended to attach Haddock comments
+# to as many declarations as possible.
+description:         Please see the README on GitHub at <https://github.com/githubuser/todo-api#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- scotty
+- aeson
+- aeson-pretty
+- text
+- bytestring
+- containers
+- unordered-containers  
+- time
+- transformers
+- mtl
+- stm
+- cryptonite
+- memory
+- warp
+- wai-extra
+
+library:
+  source-dirs: src
+
+executables:
+  todo-api-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - todo-api
+
+tests:
+  todo-api-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - todo-api

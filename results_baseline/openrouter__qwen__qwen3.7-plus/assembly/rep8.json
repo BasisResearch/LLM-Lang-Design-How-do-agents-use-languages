@@ -1,0 +1,12 @@
+{
+  "status": "error",
+  "error": "[Errno 32] Broken pipe",
+  "traceback": "Traceback (most recent call last):\n  File \"/root/experiments/agent.py\", line 423, in run_openai\n    print(f\"  [turn {turn}] tool: {fname}({json.dumps(truncated)})\", file=sys.stderr)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nBrokenPipeError: [Errno 32] Broken pipe\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/root/experiments/agent.py\", line 471, in main\n    result = run_agent(args.model, args.language, args.workdir, args.max_turns)\n  File \"/root/experiments/agent.py\", line 455, in run_agent\n    return run_openai(model_id, language, workdir, max_turns)\n  File \"/root/experiments/agent.py\", line 425, in run_openai\n    print(f\"  [turn {turn}] tool: {fname}(...)\", file=sys.stderr)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nBrokenPipeError: [Errno 32] Broken pipe\n",
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "total_tokens": 0,
+  "turns": 0,
+  "model": "openrouter/qwen/qwen3.7-plus",
+  "language": "assembly",
+  "duration_seconds": 625.0042452812195
+}

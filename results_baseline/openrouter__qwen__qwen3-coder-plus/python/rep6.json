@@ -1,0 +1,12 @@
+{
+  "input_tokens": 413029,
+  "output_tokens": 24701,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 437730,
+  "turns": 25,
+  "status": "completed",
+  "model": "openrouter/qwen/qwen3-coder-plus",
+  "language": "python",
+  "duration_seconds": 417.99208188056946
+}

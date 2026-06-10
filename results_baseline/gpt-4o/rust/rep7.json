@@ -1,0 +1,12 @@
+{
+  "input_tokens": 15287,
+  "output_tokens": 1408,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 16695,
+  "turns": 7,
+  "status": "completed",
+  "model": "gpt-4o",
+  "language": "rust",
+  "duration_seconds": 15.251248359680176
+}

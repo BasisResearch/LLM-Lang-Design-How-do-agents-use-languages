@@ -1,0 +1,27 @@
+cabal-version:      2.4
+name:               todo-app
+version:            0.1.0.0
+synopsis:           A safety-critical REST API server for managing personal todo items
+description:        Todo App with cookie-based authentication
+license:            MIT
+author:             Author
+maintainer:         author@example.com
+build-type:         Simple
+
+executable todo-app
+    main-is:          Main.hs
+    build-depends:    
+        base >= 4.7 && < 5
+      , scotty
+      , aeson
+      , text
+      , bytestring
+      , time
+      , uuid
+      , stm
+      , containers
+      , mtl
+      , http-types
+      , wai
+    default-language: Haskell2010
+    ghc-options:      -O2 -threaded -rtsopts -with-rtsopts=-N

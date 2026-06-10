@@ -1,0 +1,12 @@
+{
+  "input_tokens": 18098,
+  "output_tokens": 32070,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 50168,
+  "turns": 3,
+  "status": "completed",
+  "model": "gpt-5",
+  "language": "assembly",
+  "duration_seconds": 838.9113702774048
+}

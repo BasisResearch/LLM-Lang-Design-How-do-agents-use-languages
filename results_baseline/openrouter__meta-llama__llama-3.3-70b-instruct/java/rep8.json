@@ -1,0 +1,12 @@
+{
+  "input_tokens": 5905,
+  "output_tokens": 90,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 5995,
+  "turns": 3,
+  "status": "completed",
+  "model": "openrouter/meta-llama/llama-3.3-70b-instruct",
+  "language": "java",
+  "duration_seconds": 6.150859355926514
+}

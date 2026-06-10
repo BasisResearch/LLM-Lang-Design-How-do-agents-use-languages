@@ -1,0 +1,16 @@
+{"version": "1.2.0",
+ "packagesDir": ".lake/packages",
+ "packages":
+ [{"url": "https://github.com/kaito2/lean-http.git",
+   "type": "git",
+   "subDir": null,
+   "scope": "",
+   "rev": "56b7523bc2e194843a035cbdb99679628523b320",
+   "name": "«lean-http»",
+   "manifestFile": "lake-manifest.json",
+   "inputRev": "main",
+   "inherited": false,
+   "configFile": "lakefile.lean"}],
+ "name": "todo_server",
+ "lakeDir": ".lake",
+ "fixedToolchain": false}

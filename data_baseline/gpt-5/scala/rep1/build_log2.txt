@@ -1,0 +1,49 @@
+[90mCompiling project (Scala 3.3.1, JVM (17))[0m
+[[31merror[0m] ./src/Main.scala:114:67
+[[31merror[0m] Not found: Content-Type
+[[31merror[0m]     IO.pure(Response[IO](status).withEntity(json).withContentType(`Content-Type`(MediaType.application.json)))
+[[31merror[0m]                                                                   ^^^^^^^^^^^^^^
+[[31merror[0m] ./src/Main.scala:119:57
+[[31merror[0m] Not found: Kleisli
+[[31merror[0m]     def apply(routes: HttpRoutes[IO]): HttpRoutes[IO] = Kleisli { (req: Request[IO]) =>
+[[31merror[0m]                                                         ^^^^^^^
+[[31merror[0m] ./src/Main.scala:122:35
+[[31merror[0m] Not found: Content-Type
+[[31merror[0m]         else resp.withContentType(`Content-Type`(MediaType.application.json))
+[[31merror[0m]                                   ^^^^^^^^^^^^^^
+[[31merror[0m] ./src/Main.scala:141:19
+[[31merror[0m] Not found: type Http4sDsl
+[[31merror[0m]     val dsl = new Http4sDsl[IO] {}
+[[31merror[0m]                   ^^^^^^^^^
+[90mError compiling project (Scala 3.3.1, JVM (17))[0m
+[[33mhint[0m] ./src/Main.scala:2:16
+[[33mhint[0m] "http4s-ember-server is outdated, update to 0.23.34"
+[[33mhint[0m]      http4s-ember-server 0.23.26 -> org.http4s::http4s-ember-server:0.23.34
+[[33mhint[0m] //> using dep "org.http4s::http4s-ember-server:0.23.26"
+[[33mhint[0m]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[33mhint[0m] ./src/Main.scala:3:16
+[[33mhint[0m] "http4s-dsl is outdated, update to 0.23.34"
+[[33mhint[0m]      http4s-dsl 0.23.26 -> org.http4s::http4s-dsl:0.23.34
+[[33mhint[0m] //> using dep "org.http4s::http4s-dsl:0.23.26"
+[[33mhint[0m]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[33mhint[0m] ./src/Main.scala:4:16
+[[33mhint[0m] "http4s-circe is outdated, update to 0.23.34"
+[[33mhint[0m]      http4s-circe 0.23.26 -> org.http4s::http4s-circe:0.23.34
+[[33mhint[0m] //> using dep "org.http4s::http4s-circe:0.23.26"
+[[33mhint[0m]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[33mhint[0m] ./src/Main.scala:5:16
+[[33mhint[0m] "circe-core is outdated, update to 0.14.15"
+[[33mhint[0m]      circe-core 0.14.6 -> io.circe::circe-core:0.14.15
+[[33mhint[0m] //> using dep "io.circe::circe-core:0.14.6"
+[[33mhint[0m]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[33mhint[0m] ./src/Main.scala:6:16
+[[33mhint[0m] "circe-generic is outdated, update to 0.14.15"
+[[33mhint[0m]      circe-generic 0.14.6 -> io.circe::circe-generic:0.14.15
+[[33mhint[0m] //> using dep "io.circe::circe-generic:0.14.6"
+[[33mhint[0m]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[33mhint[0m] ./src/Main.scala:7:16
+[[33mhint[0m] "circe-parser is outdated, update to 0.14.15"
+[[33mhint[0m]      circe-parser 0.14.6 -> io.circe::circe-parser:0.14.15
+[[33mhint[0m] //> using dep "io.circe::circe-parser:0.14.6"
+[[33mhint[0m]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Compilation failed

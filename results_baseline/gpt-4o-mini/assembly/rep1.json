@@ -1,0 +1,12 @@
+{
+  "input_tokens": 7327,
+  "output_tokens": 456,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 7783,
+  "turns": 4,
+  "status": "completed",
+  "model": "gpt-4o-mini",
+  "language": "assembly",
+  "duration_seconds": 8.365468263626099
+}

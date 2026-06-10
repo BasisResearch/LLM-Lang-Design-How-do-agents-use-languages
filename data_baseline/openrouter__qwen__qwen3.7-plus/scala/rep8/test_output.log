@@ -1,0 +1,64 @@
+==== Starting server on port 8090 ====
+==== Checking if server is up ====
+Server is up!
+Testing: Register User 1
+  PASS: Status 201
+Testing: Register Invalid Username
+  PASS: Status 400
+Testing: Register Password Too Short
+  PASS: Status 400
+Testing: Register Duplicate
+  PASS: Status 409
+Testing: Register User 2
+  PASS: Status 201
+Testing: Login Success
+  PASS: Status 200
+Testing: Login Fail
+  PASS: Status 401
+Testing: Me No Cookie
+  PASS: Status 401
+Testing: Me With Cookie
+  PASS: Status 200
+Testing: Update Password Success
+  PASS: Status 200
+Testing: Update Password Wrong Old Password
+  PASS: Status 401
+Testing: Update Password New Password Too Short
+  PASS: Status 400
+Testing: Get Todos Empty
+  PASS: Status 200
+Testing: Create Todo Success
+  PASS: Status 201
+Testing: Create Todo No Title
+  PASS: Status 400
+Testing: Create Todo Empty Title
+  PASS: Status 400
+Testing: Create Todo Whitespace Title
+  PASS: Status 400
+Testing: Get Todos With Data
+  PASS: Status 200
+Testing: Get Specific Todo Success
+  PASS: Status 200
+Testing: Get Specific Todo Not Found
+  PASS: Status 404
+Testing: Create Todo User 2
+Testing: Get Other User Todo
+  PASS: Status 404
+Testing: Update Specific Todo Success
+  PASS: Status 200
+Testing: Update Specific Todo Empty Title
+  PASS: Status 400
+Testing: Update Specific Todo Not Found
+  PASS: Status 404
+Testing: Delete Other User Todo
+  PASS: Status 404
+Testing: Delete Specific Todo Success
+  PASS: Status 204
+Testing: Delete Specific Todo Not Found
+  PASS: Status 404
+Testing: Logout
+  PASS: Status 200
+Testing: Me After Logout
+  PASS: Status 401
+==== Stopping server ====
+==== ALL TESTS PASSED ====

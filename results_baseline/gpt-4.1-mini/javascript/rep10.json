@@ -1,0 +1,12 @@
+{
+  "input_tokens": 11076,
+  "output_tokens": 3240,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 14316,
+  "turns": 3,
+  "status": "completed",
+  "model": "gpt-4.1-mini",
+  "language": "javascript",
+  "duration_seconds": 634.9066936969757
+}

@@ -8,17 +8,28 @@ Two agent variants are included. The **baseline agent** has four tools: write fi
 
 ```
 agents/
-  agent.py          # Baseline agent (write/read/execute/list/done)
-  agent_mcp.py      # MCP agent (adds diagnostics/hover/definition)
+  agent.py              # Baseline agent (write/read/execute/list/done)
+  agent_mcp.py          # MCP agent (adds diagnostics/hover/definition)
 eval/
-  spec.md           # Todo API specification given to agents
-  test_server.sh    # TAP test suite (53 tests)
-  smart_run.sh      # Port-passing wrapper for run.sh
+  spec.md               # Todo API specification given to agents
+  test_server.sh        # TAP test suite (53 tests)
+  smart_run.sh          # Port-passing wrapper for run.sh
 scheduler/
-  scheduler.py      # Batch scheduler for baseline experiments
-  scheduler_mcp.py  # Batch scheduler for MCP experiments
-  run_tests.py      # Score completed experiments against test suite
-  watchdog.sh       # Auto-restart wrapper for long batch runs
+  scheduler.py          # Batch scheduler for baseline experiments
+  scheduler_mcp.py      # Batch scheduler for MCP experiments
+  run_tests.py          # Score completed experiments against test suite
+  watchdog.sh           # Auto-restart wrapper for long batch runs
+data_baseline/
+  {model}/{language}/rep{N}/   # Generated source code (baseline)
+data_mcp/
+  gpt-5/{language}/rep{N}/     # Generated source code (MCP)
+results_baseline/
+  {model}/{language}/rep{N}.json  # Experiment metadata (tokens, turns, duration)
+  test_scores.jsonl               # Test pass/fail per experiment
+results_mcp/
+  gpt-5/{language}/rep{N}.json    # Experiment metadata
+  gpt-5/{language}/rep{N}.log     # Agent tool-call traces
+  test_scores.jsonl               # Test pass/fail per experiment
 ```
 
 ## The task
@@ -95,6 +106,33 @@ python scheduler/run_tests.py
 ```
 
 Produces a JSONL file with one entry per experiment: model, language, rep, passed, total.
+
+## Data
+
+The repository includes generated code and results from two experiment batches.
+
+**Baseline** (`data_baseline/`, `results_baseline/`): 3 models (GPT-5, Qwen3-Coder-Plus, Qwen3.7-Plus) across 11 languages (Python, JavaScript, TypeScript, Python-mypy, Java, Go, Rust, Scala, C, Haskell, Lean, Assembly) with 10 repetitions each. 289 scored experiments in `results_baseline/test_scores.jsonl`.
+
+**MCP** (`data_mcp/`, `results_mcp/`): GPT-5 across 9 languages (Python, JavaScript, TypeScript, Python-mypy, Java, Go, Rust, Scala, C) with 10 repetitions. 87 scored experiments in `results_mcp/test_scores.jsonl`. The MCP logs (`rep{N}.log`) record every tool call the agent made, including which language-server tools it chose to use and when.
+
+Each result JSON contains:
+```json
+{
+  "status": "completed",
+  "model": "gpt-5",
+  "language": "python",
+  "input_tokens": 65213,
+  "output_tokens": 13769,
+  "total_tokens": 78982,
+  "turns": 8,
+  "duration_seconds": 119.86
+}
+```
+
+Each test score entry contains:
+```json
+{"model": "gpt-5", "language": "python", "rep": 1, "passed": 53, "total": 53}
+```
 
 ## Environment variables
 

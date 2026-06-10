@@ -1,0 +1,12 @@
+{
+  "input_tokens": 1035789,
+  "output_tokens": 49616,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 1085405,
+  "turns": 43,
+  "status": "completed",
+  "model": "gpt-5",
+  "language": "haskell",
+  "duration_seconds": 690.4952440261841
+}

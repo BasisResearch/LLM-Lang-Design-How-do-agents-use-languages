@@ -1,0 +1,72 @@
+  get ("/todos/" <//> var) $ \requestedId -> do
+    let requestedTodoId = TodoId requestedId
+    
+    -- Auth protection
+    uid <- requireAuth appState
+    
+    todos <- liftIO $ readIORef (stateTodos appState)
+    let matchingTodo = find (\(todoId, _, owner) -> todoId == requestedTodoId && owner == uid) todos
+    
+    case matchingTodo of
+      Nothing -> do
+        status HTTP.status404
+        json $ object ["error" .= String "Todo not found"]
+      Just (_, todo, _) -> json todo
+
+  -- Update specific todo
+  put ("/todos/" <//> var) $ \requestedId -> do
+    let requestedTodoId = TodoId requestedId
+    updateReq <- jsonData :: ActionM TodoUpdReq
+    
+    -- Auth protection
+    uid <- requireAuth appState
+    
+    todos <- liftIO $ readIORef (stateTodos appState)
+    let matchingTodo = find (\(todoId, _, owner) -> todoId == requestedTodoId && owner == uid) todos
+    
+    case matchingTodo of
+      Nothing -> do
+        status HTTP.status404
+        json $ object ["error" .= String "Todo not found"]
+      Just (_, originalTodo, _) -> do
+        let newTitle = fromMaybe (titleField originalTodo) (updTitle updateReq)
+        
+        if newTitle == ""
+          then do
+            status HTTP.status400
+            json $ object ["error" .= String "Title is required"]
+          else do
+            now <- liftIO getCurrentTime
+            
+            let updatedTodo = originalTodo 
+                  { titleField = fromMaybe (titleField originalTodo) (updTitle updateReq)
+                  , descriptionField = fromMaybe (descriptionField originalTodo) (updDescription updateReq)
+                  , completedField = fromMaybe (completedField originalTodo) (updCompleted updateReq)
+                  , updatedAtField = now
+                  }
+                  
+            let updateFunc (tid, t, tuid) = 
+                  if tid == requestedTodoId then (tid, updatedTodo, tuid) else (tid, t, tuid)
+                  
+            liftIO $ modifyIORef (stateTodos appState) (map updateFunc)
+            
+            json updatedTodo
+
+  -- Delete specific todo
+  delete ("/todos/" <//> var) $ \requestedId -> do
+    let requestedTodoId = TodoId requestedId
+    
+    -- Auth protection
+    uid <- requireAuth appState
+    
+    todos <- liftIO $ readIORef (stateTodos appState)
+    let matchingTodos = filter (\(todoId, _, owner) -> todoId == requestedTodoId && owner == uid) todos
+    
+    if null matchingTodos
+      then do
+        status HTTP.status404
+        json $ object ["error" .= String "Todo not found"]
+      else do
+        liftIO $ modifyIORef (stateTodos appState) 
+          (filter (\(todoId, _, owner) -> todoId /= requestedTodoId || owner /= uid))
+        status HTTP.status204  -- No content

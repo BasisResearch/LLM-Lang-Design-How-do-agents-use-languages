@@ -1,0 +1,7 @@
+127.0.0.1 - - [05/Jun/2026 05:20:17] "POST /register HTTP/1.1" 201 -
+127.0.0.1 - - [05/Jun/2026 05:20:17] "POST /login HTTP/1.1" 200 -
+/root/experiments/data/openrouter__qwen__qwen3-coder-plus/python/rep6/server.py:32: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+127.0.0.1 - - [05/Jun/2026 05:20:17] "POST /todos HTTP/1.1" 201 -
+127.0.0.1 - - [05/Jun/2026 05:20:17] "GET /todos HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 05:20:17] "GET /todos/1 HTTP/1.1" 200 -

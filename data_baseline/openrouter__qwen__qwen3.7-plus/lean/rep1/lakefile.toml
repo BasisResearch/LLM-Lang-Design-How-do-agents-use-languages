@@ -1,0 +1,17 @@
+name = "todo_server"
+version = "0.1.0"
+defaultTargets = ["todo_server"]
+
+[[require]]
+name = "lean-http"
+git = "https://github.com/kaito2/lean-http.git"
+rev = "main"
+
+[[lean_lib]]
+name = "TodoServer"
+deps = ["lean-http"]
+
+[[lean_exe]]
+name = "todo_server"
+root = "Main"
+deps = ["TodoServer", "lean-http"]

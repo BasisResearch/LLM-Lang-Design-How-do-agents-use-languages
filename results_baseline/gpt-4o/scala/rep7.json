@@ -1,0 +1,12 @@
+{
+  "input_tokens": 13027,
+  "output_tokens": 3890,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 16917,
+  "turns": 4,
+  "status": "completed",
+  "model": "gpt-4o",
+  "language": "scala",
+  "duration_seconds": 54.277689933776855
+}

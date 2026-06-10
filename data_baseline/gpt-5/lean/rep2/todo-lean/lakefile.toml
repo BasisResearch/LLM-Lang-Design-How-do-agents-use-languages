@@ -1,0 +1,13 @@
+name = "todo-lean"
+version = "0.1.0"
+defaultTargets = ["todo-lean"]
+
+[[lean_lib]]
+name = "TodoLib"
+
+[[lean_exe]]
+name = "todo-lean"
+root = "Main"
+
+[dependencies]
+std = { git = "https://github.com/leanprover/std4", rev = "v4.30.0" }

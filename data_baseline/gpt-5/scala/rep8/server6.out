@@ -1,0 +1,60 @@
+[90mCompiling project (Scala 3.3.1, JVM (17))[0m
+Error: Bad symbolic reference. A signature in /root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar(scala/collection/View.class)
+refers to Serializable/T in package object scala.package which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling /root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar(scala/collection/View.class).
+Error: Bad symbolic reference. A signature in /root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar(scala/collection/immutable/TreeSeqMap.class)
+refers to Serializable/T in package object scala.package which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling /root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar(scala/collection/immutable/TreeSeqMap.class).
+[[31merror[0m] ./Main.scala:84:32
+[[31merror[0m] Found:    ([31m'='[0m : Char)
+[[31merror[0m] Required: String
+[[31merror[0m]       val kv = part.trim.split('=', 2)
+[[31merror[0m]                                ^^^
+[[31merror[0m] ./Main.scala:94:11
+[[31merror[0m] Values of types Int and Null cannot be compared with == or !=
+[[31merror[0m]       if (uid == null) None else Option(Store.usersById.get(uid))
+[[31merror[0m]           ^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:131:21
+[[31merror[0m] Values of types Int and Null cannot be compared with == or !=
+[[31merror[0m]                 if (prev != null) jsonError(exchange, 409, "Username already exists")
+[[31merror[0m]                     ^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:147:33
+[[31merror[0m] Values of types Int and Null cannot be compared with == or !=
+[[31merror[0m]               val userOpt = if (uid == null) None else Option(Store.usersById.get(uid))
+[[31merror[0m]                                 ^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:244:27
+[[31merror[0m] value toIntOption is not a member of String
+[[31merror[0m]               val idOpt = idStr.toIntOption
+[[31merror[0m]                           ^^^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:248:47
+[[31merror[0m] Not found: id
+[[31merror[0m]                   val t = Store.todosById.get(id)
+[[31merror[0m]                                               ^^
+[[31merror[0m] ./Main.scala:269:15
+[[31merror[0m] value toIntOption is not a member of String
+[[31merror[0m]               idStr.toIntOption match {
+[[31merror[0m]               ^^^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:272:49
+[[31merror[0m] Not found: id
+[[31merror[0m]                   val rec = Store.todosById.get(id)
+[[31merror[0m]                                                 ^^
+[[31merror[0m] ./Main.scala:288:45
+[[31merror[0m] Not found: id
+[[31merror[0m]                         Store.todosById.put(id, updated)
+[[31merror[0m]                                             ^^
+[[31merror[0m] ./Main.scala:308:15
+[[31merror[0m] value toIntOption is not a member of String
+[[31merror[0m]               idStr.toIntOption match {
+[[31merror[0m]               ^^^^^^^^^^^^^^^^^
+[[31merror[0m] ./Main.scala:311:49
+[[31merror[0m] Not found: id
+[[31merror[0m]                   val rec = Store.todosById.get(id)
+[[31merror[0m]                                                 ^^
+[[31merror[0m] ./Main.scala:313:49
+[[31merror[0m] Not found: id
+[[31merror[0m]                   else { Store.todosById.remove(id); sendNoContent(exchange) }
+[[31merror[0m]                                                 ^^
+[90mError compiling project (Scala 3.3.1, JVM (17))[0m
+Compilation failed

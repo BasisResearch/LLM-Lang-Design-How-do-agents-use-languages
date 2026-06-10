@@ -1,0 +1,17 @@
+[[33mhint[0m] ./Server.scala:2:16
+[[33mhint[0m] "zio-http is outdated, update to 3.11.2"
+[[33mhint[0m]      zio-http 3.0.1 -> dev.zio::zio-http:3.11.2
+[[33mhint[0m] //> using dep "dev.zio::zio-http:3.0.1"
+[[33mhint[0m]                ^^^^^^^^^^^^^^^^^^^^^^^
+[[33mhint[0m] ./Server.scala:3:16
+[[33mhint[0m] "circe-core is outdated, update to 0.14.15"
+[[33mhint[0m]      circe-core 0.14.10 -> io.circe::circe-core:0.14.15
+[[33mhint[0m] //> using dep "io.circe::circe-core:0.14.10"
+[[33mhint[0m]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[33mhint[0m] ./Server.scala:4:16
+[[33mhint[0m] "circe-parser is outdated, update to 0.14.15"
+[[33mhint[0m]      circe-parser 0.14.10 -> io.circe::circe-parser:0.14.15
+[[33mhint[0m] //> using dep "io.circe::circe-parser:0.14.10"
+[[33mhint[0m]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+timestamp=2026-06-05T23:29:52.700182190Z level=INFO thread=#zio-fiber-1361561693 message="Starting the server..." location=<empty>.Server$package.runServer file=Server.scala line=52
+timestamp=2026-06-05T23:29:52.853475368Z level=INFO thread=#zio-fiber-1361561693 message="Server started" location=<empty>.Server$package.runServer file=Server.scala line=52

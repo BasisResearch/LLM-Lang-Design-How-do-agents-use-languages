@@ -1,0 +1,12 @@
+{
+  "input_tokens": 186883,
+  "output_tokens": 13520,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 200403,
+  "turns": 16,
+  "status": "completed",
+  "model": "openrouter/anthropic/claude-opus-4",
+  "language": "java",
+  "duration_seconds": 497.9420292377472
+}

@@ -1,0 +1,10 @@
+Downloading the latest package list from hackage.haskell.org
+Package list of hackage.haskell.org is up to date.
+The index-state is set to 2026-06-05T04:29:43Z.
+Build profile: -w ghc-9.10.3 -O1
+In order, the following will be built (use -v for more details):
+ - todo-app-0.1.0.0 (exe:todo-app) (file app/Main.hs changed)
+Preprocessing executable 'todo-app' for todo-app-0.1.0.0...
+Building executable 'todo-app' for todo-app-0.1.0.0...
+[1 of 1] Compiling Main             ( app/Main.hs, /root/experiments/data/gpt-5/haskell/rep6/dist-newstyle/build/x86_64-linux/ghc-9.10.3/todo-app-0.1.0.0/x/todo-app/build/todo-app/todo-app-tmp/Main.o ) [Source file changed]
+[2 of 2] Linking /root/experiments/data/gpt-5/haskell/rep6/dist-newstyle/build/x86_64-linux/ghc-9.10.3/todo-app-0.1.0.0/x/todo-app/build/todo-app/todo-app [Objects changed]

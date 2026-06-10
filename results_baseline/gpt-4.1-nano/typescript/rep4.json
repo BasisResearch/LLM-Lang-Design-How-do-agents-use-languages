@@ -1,0 +1,12 @@
+{
+  "input_tokens": 5383,
+  "output_tokens": 2303,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 7686,
+  "turns": 2,
+  "status": "completed",
+  "model": "gpt-4.1-nano",
+  "language": "typescript",
+  "duration_seconds": 18.48792314529419
+}

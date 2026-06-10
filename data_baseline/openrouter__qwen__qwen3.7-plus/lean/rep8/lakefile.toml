@@ -1,0 +1,10 @@
+name = "todo_app"
+version = "0.1.0"
+defaultTargets = ["todo_app"]
+
+[[lean_lib]]
+name = "TodoApp"
+
+[[lean_exe]]
+name = "todo_app"
+root = "Main"

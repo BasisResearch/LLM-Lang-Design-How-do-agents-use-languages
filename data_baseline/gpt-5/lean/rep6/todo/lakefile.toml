@@ -1,0 +1,12 @@
+[package]
+name = "todo"
+version = "0.1.0"
+
+[[lean_exe]]
+name = "todo"
+root = "Main"
+supportInterpreter = false
+
+[require.std]
+git = "https://github.com/leanprover/std4"
+rev = "v4.8.0-rc1"

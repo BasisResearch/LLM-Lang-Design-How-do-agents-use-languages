@@ -1,0 +1,12 @@
+#!/bin/bash
+
+PORT=3000
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        --port) PORT="$2"; shift ;;
+    esac
+    shift
+done
+
+export PORT
+npx tsx src/server.ts

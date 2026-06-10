@@ -1,0 +1,29 @@
+Build profile: -w ghc-9.10.3 -O1
+In order, the following will be built (use -v for more details):
+ - todo-app-0.1.0.0 (exe:todo-app) (first run)
+Preprocessing executable 'todo-app' for todo-app-0.1.0.0...
+Building executable 'todo-app' for todo-app-0.1.0.0...
+[1 of 1] Compiling Main             ( app/Main.hs, /root/experiments/data/gpt-5/haskell/rep9/dist-newstyle/build/x86_64-linux/ghc-9.10.3/todo-app-0.1.0.0/x/todo-app/build/todo-app/todo-app-tmp/Main.o )
+app/Main.hs:19:1: warning: [GHC-66111] [-Wunused-imports]
+    The import of ‘Network.Wai’ is redundant
+      except perhaps to import instances from ‘Network.Wai’
+    To import instances alone, use: import Network.Wai()
+   |
+19 | import           Network.Wai (Application)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+app/Main.hs:161:17: warning: [GHC-68441] [-Wdeprecations]
+    In the use of ‘iso8601DateFormat’
+    (imported from Data.Time, but defined in Data.Time.Format.Locale):
+    Deprecated: "use "Data.Time.Format.ISO8601" functions instead"
+    |
+161 |       let fmt = iso8601DateFormat (Just "%H:%M:%SZ")
+    |                 ^^^^^^^^^^^^^^^^^
+
+app/Main.hs:232:40: warning: [GHC-40910] [-Wunused-matches]
+    Defined but not used: ‘pw’
+    |
+232 |           let us' = map (\iu@(IUser u' pw) -> if userId u' == userId u then IUser u newp else iu) us
+    |                                        ^^
+
+[2 of 2] Linking /root/experiments/data/gpt-5/haskell/rep9/dist-newstyle/build/x86_64-linux/ghc-9.10.3/todo-app-0.1.0.0/x/todo-app/build/todo-app/todo-app

@@ -1,0 +1,24 @@
+cabal-version:       2.4
+name:                todo-app
+version:             0.1.0.0
+build-type:          Simple
+
+executable todo-app
+  main-is:             Main.hs
+  hs-source-dirs:      app
+  default-language:    Haskell2010
+  ghc-options:         -O2 -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base >=4.12 && <5,
+                       scotty >=0.12,
+                       warp >=3.2,
+                       aeson >=2.0,
+                       time,
+                       text,
+                       bytestring,
+                       containers,
+                       http-types,
+                       wai,
+                       cookie,
+                       case-insensitive,
+                       uuid,
+                       uuid-types

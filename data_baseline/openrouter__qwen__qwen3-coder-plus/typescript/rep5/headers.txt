@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Set-Cookie: session_id=29a16b02-5a6e-4cca-b670-efe35e501e1a; Max-Age=86400; Path=/; Expires=Sat, 06 Jun 2026 17:34:29 GMT; HttpOnly
+Content-Type: application/json; charset=utf-8
+Content-Length: 30
+ETag: W/"1e-3pBsEbC83Xoj5c+CqKxA2gNLls0"
+Date: Fri, 05 Jun 2026 17:34:29 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+

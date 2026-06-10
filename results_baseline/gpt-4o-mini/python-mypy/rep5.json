@@ -1,0 +1,12 @@
+{
+  "input_tokens": 29232,
+  "output_tokens": 4463,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 33695,
+  "turns": 7,
+  "status": "completed",
+  "model": "gpt-4o-mini",
+  "language": "python-mypy",
+  "duration_seconds": 106.98663473129272
+}

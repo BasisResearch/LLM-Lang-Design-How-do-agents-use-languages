@@ -1,0 +1,25 @@
+ * Serving Flask app 'server'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:60791
+ * Running on http://5.78.178.232:60791
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [04/Jun/2026 22:56:35] "[31m[1mGET /me HTTP/1.1[0m" 401 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "[31m[1mPOST /register HTTP/1.1[0m" 409 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "GET /me HTTP/1.1" 200 -
+/root/experiments/data/gpt-5/python/rep9/server.py:28: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
+127.0.0.1 - - [04/Jun/2026 22:56:35] "[35m[1mPOST /todos HTTP/1.1[0m" 201 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "GET /todos HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "GET /todos/1 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "PUT /todos/1 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "[35m[1mDELETE /todos/1 HTTP/1.1[0m" 204 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "POST /logout HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "[31m[1mGET /me HTTP/1.1[0m" 401 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "PUT /password HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+127.0.0.1 - - [04/Jun/2026 22:56:35] "POST /login HTTP/1.1" 200 -

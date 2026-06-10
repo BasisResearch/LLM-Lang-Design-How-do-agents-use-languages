@@ -1,0 +1,6 @@
+//> using scala "2.13.10"
+//> using dep "com.typesafe.akka::akka-actor:2.6.20"
+//> using dep "com.typesafe.akka::akka-stream:2.6.20"
+//> using dep "com.typesafe.akka::akka-http:10.2.9" 
+//> using dep "com.typesafe.akka::akka-http-spray-json:10.2.9"
+//> using dep "io.spray:spray-json_2.13:1.3.6"

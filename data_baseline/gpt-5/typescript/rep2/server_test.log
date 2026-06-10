@@ -1,0 +1,2 @@
+src/server.ts(3,30): error TS7016: Could not find a declaration file for module 'uuid'. '/root/experiments/data/gpt-5/typescript/rep2/node_modules/uuid/dist/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/uuid` if it exists or add a new declaration (.d.ts) file containing `declare module 'uuid';`

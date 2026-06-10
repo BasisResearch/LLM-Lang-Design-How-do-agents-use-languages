@@ -1,0 +1,12 @@
+{
+  "input_tokens": 351628,
+  "output_tokens": 18571,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 370199,
+  "turns": 23,
+  "status": "completed",
+  "model": "openrouter/anthropic/claude-sonnet-4",
+  "language": "python",
+  "duration_seconds": 359.5620827674866
+}

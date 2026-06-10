@@ -1,0 +1,12 @@
+{
+  "input_tokens": 5945,
+  "output_tokens": 99,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 6044,
+  "turns": 3,
+  "status": "completed",
+  "model": "openrouter/meta-llama/llama-3.3-70b-instruct",
+  "language": "c",
+  "duration_seconds": 5.241360187530518
+}

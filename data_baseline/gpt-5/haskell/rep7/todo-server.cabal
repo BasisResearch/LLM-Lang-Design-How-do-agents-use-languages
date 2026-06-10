@@ -1,0 +1,25 @@
+cabal-version:       2.4
+name:                todo-server
+version:             0.1.0.0
+license:             BSD-3-Clause
+build-type:          Simple
+
+executable todo-server
+  main-is: Main.hs
+  default-language: Haskell2010
+  build-depends:
+      base
+    , scotty
+    , aeson
+    , text
+    , bytestring
+    , containers
+    , stm
+    , time
+    , uuid
+    , uuid-types
+    , wai
+    , warp
+    , http-types
+    , wai-extra
+  ghc-options: -O2 -threaded -Wall

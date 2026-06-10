@@ -1,0 +1,20 @@
+INFO:     Started server process [1680129]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:46455 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49270 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49282 - "POST /register HTTP/1.1" 201 Created
+INFO:     127.0.0.1:49288 - "POST /register HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:49290 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49292 - "GET /me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49298 - "PUT /password HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49300 - "PUT /password HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49314 - "POST /todos HTTP/1.1" 201 Created
+INFO:     127.0.0.1:49330 - "GET /todos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49332 - "GET /todos/1 HTTP/1.1" 200 OK
+{"id":1,"title":"Task 1","description":"Desc","completed":false,"created_at":"2026-06-04T14:33:50Z","updated_at":"2026-06-04T14:33:50Z"}
+INFO:     127.0.0.1:49346 - "PUT /todos/1 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1680129]

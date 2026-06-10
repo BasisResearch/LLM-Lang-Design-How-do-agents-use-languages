@@ -1,0 +1,10 @@
+{
+  "status": "timeout",
+  "model": "openrouter/qwen/qwen3.7-plus",
+  "language": "assembly",
+  "error": "Experiment timed out after 30 minutes",
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "total_tokens": 0,
+  "turns": 0
+}

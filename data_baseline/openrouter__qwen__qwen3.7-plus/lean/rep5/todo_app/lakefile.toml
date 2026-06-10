@@ -1,0 +1,15 @@
+name = "todo_app"
+version = "0.1.0"
+defaultTargets = ["todo_app"]
+
+[[lean_lib]]
+name = "TodoApp"
+
+[[lean_exe]]
+name = "todo_app"
+root = "Main"
+
+[[require]]
+name = "lean-http"
+git = "https://github.com/kaito2/lean-http.git"
+rev = "56b7523bc2e194843a035cbdb99679628523b320"

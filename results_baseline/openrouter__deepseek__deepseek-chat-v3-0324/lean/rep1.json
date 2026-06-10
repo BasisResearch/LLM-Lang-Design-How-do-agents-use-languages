@@ -1,0 +1,12 @@
+{
+  "input_tokens": 17013,
+  "output_tokens": 1867,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 18880,
+  "turns": 6,
+  "status": "completed",
+  "model": "openrouter/deepseek/deepseek-chat-v3-0324",
+  "language": "lean",
+  "duration_seconds": 54.054200649261475
+}

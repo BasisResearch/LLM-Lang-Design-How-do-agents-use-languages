@@ -1,0 +1,12 @@
+{
+  "input_tokens": 7253,
+  "output_tokens": 4193,
+  "cache_read_tokens": 0,
+  "cache_creation_tokens": 0,
+  "total_tokens": 11446,
+  "turns": 2,
+  "status": "completed",
+  "model": "gpt-4.1-nano",
+  "language": "java",
+  "duration_seconds": 50.78443956375122
+}

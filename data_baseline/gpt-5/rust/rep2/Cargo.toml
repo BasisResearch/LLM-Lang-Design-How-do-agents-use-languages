@@ -1,0 +1,14 @@
+[package]
+name = "todo_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+uuid = { version = "1", features = ["v4"] }
+chrono = { version = "0.4", features = ["clock"] }
+thiserror = "1"
+regex = "1"

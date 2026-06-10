@@ -1,0 +1,1702 @@
+{
+  "gpt-4o-mini/assembly/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/assembly/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/assembly/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/assembly/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/assembly/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/assembly/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/assembly/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/assembly/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/assembly/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/assembly/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/c/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/c/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/c/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/c/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/c/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/c/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/c/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/c/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/c/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/c/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/python/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/python/rep2": [
+    14,
+    53
+  ],
+  "gpt-4o-mini/python/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/python/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/python/rep5": [
+    47,
+    53
+  ],
+  "gpt-4o-mini/python/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/python/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/python/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/python/rep9": [
+    21,
+    53
+  ],
+  "gpt-4o-mini/python/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/javascript/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/javascript/rep2": [
+    52,
+    53
+  ],
+  "gpt-4o-mini/javascript/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/javascript/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/javascript/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/javascript/rep6": [
+    52,
+    53
+  ],
+  "gpt-4o-mini/javascript/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/javascript/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/javascript/rep9": [
+    45,
+    53
+  ],
+  "gpt-4o-mini/javascript/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/python-mypy/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/python-mypy/rep3": [
+    17,
+    53
+  ],
+  "gpt-4o-mini/python-mypy/rep4": [
+    24,
+    27
+  ],
+  "gpt-4o-mini/python-mypy/rep5": [
+    20,
+    53
+  ],
+  "gpt-4o-mini/typescript/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/typescript/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/typescript/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/typescript/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/typescript/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/typescript/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/typescript/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/typescript/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/typescript/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/typescript/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/java/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/java/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/java/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/java/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/java/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/java/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/java/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/java/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/java/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/java/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/scala/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/scala/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/scala/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/scala/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/scala/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/scala/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/scala/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/scala/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/scala/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/scala/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/rust/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/rust/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/rust/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/rust/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/rust/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/rust/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/rust/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/rust/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/rust/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/rust/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/lean/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/lean/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/lean/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/lean/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/lean/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/lean/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/lean/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/lean/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/lean/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o-mini/lean/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o/assembly/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o/assembly/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o/assembly/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o/assembly/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o/assembly/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o/assembly/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o/assembly/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o/assembly/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o/assembly/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o/assembly/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o/c/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o/c/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o/c/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o/c/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o/c/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o/c/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o/c/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o/c/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o/c/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o/c/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o/python/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o/python/rep2": [
+    21,
+    53
+  ],
+  "gpt-4o/python/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o/python/rep4": [
+    15,
+    23
+  ],
+  "gpt-4o/python/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o/python/rep6": [
+    20,
+    53
+  ],
+  "gpt-4o/python/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o/python/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o/python/rep9": [
+    45,
+    53
+  ],
+  "gpt-4o/python/rep10": [
+    50,
+    53
+  ],
+  "gpt-4o/javascript/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o/javascript/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o/javascript/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o/javascript/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o/javascript/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o/javascript/rep6": [
+    51,
+    53
+  ],
+  "gpt-4o/javascript/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o/javascript/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o/javascript/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o/javascript/rep10": [
+    52,
+    53
+  ],
+  "gpt-4o/python-mypy/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o/python-mypy/rep2": [
+    50,
+    53
+  ],
+  "gpt-4o/python-mypy/rep3": [
+    20,
+    53
+  ],
+  "gpt-4o/python-mypy/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o/python-mypy/rep5": [
+    51,
+    53
+  ],
+  "gpt-4o/python-mypy/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o/python-mypy/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o/python-mypy/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o/python-mypy/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o/python-mypy/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o/typescript/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o/typescript/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o/typescript/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o/typescript/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o/typescript/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o/typescript/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o/typescript/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o/typescript/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o/typescript/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o/typescript/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o/java/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o/java/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o/java/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o/java/rep4": [
+    42,
+    53
+  ],
+  "gpt-4o/java/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o/java/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o/java/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o/java/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o/java/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o/java/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o/scala/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o/scala/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o/scala/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o/scala/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o/scala/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o/scala/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o/scala/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o/scala/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o/scala/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o/scala/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o/rust/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o/rust/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o/rust/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o/rust/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o/rust/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o/rust/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o/rust/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o/rust/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o/rust/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o/rust/rep10": [
+    0,
+    53
+  ],
+  "gpt-4o/lean/rep1": [
+    0,
+    53
+  ],
+  "gpt-4o/lean/rep2": [
+    0,
+    53
+  ],
+  "gpt-4o/lean/rep3": [
+    0,
+    53
+  ],
+  "gpt-4o/lean/rep4": [
+    0,
+    53
+  ],
+  "gpt-4o/lean/rep5": [
+    0,
+    53
+  ],
+  "gpt-4o/lean/rep6": [
+    0,
+    53
+  ],
+  "gpt-4o/lean/rep7": [
+    0,
+    53
+  ],
+  "gpt-4o/lean/rep8": [
+    0,
+    53
+  ],
+  "gpt-4o/lean/rep9": [
+    0,
+    53
+  ],
+  "gpt-4o/lean/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/assembly/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/assembly/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/assembly/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/assembly/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/assembly/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/assembly/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/assembly/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/assembly/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/assembly/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/assembly/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/c/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/c/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/c/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/c/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/c/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/c/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/c/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/c/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/c/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/c/rep10": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/python/rep1": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/python/rep2": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/python/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/python/rep4": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/python/rep5": [
+    44,
+    53
+  ],
+  "gpt-4.1-mini/python/rep6": [
+    51,
+    53
+  ],
+  "gpt-4.1-mini/python/rep7": [
+    28,
+    38
+  ],
+  "gpt-4.1-mini/python/rep8": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/python/rep9": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/python/rep10": [
+    44,
+    53
+  ],
+  "gpt-4.1-mini/javascript/rep1": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/javascript/rep2": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/javascript/rep3": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/javascript/rep4": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/javascript/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/javascript/rep6": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/javascript/rep7": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/javascript/rep8": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/javascript/rep9": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/javascript/rep10": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/python-mypy/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/python-mypy/rep2": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/python-mypy/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/python-mypy/rep4": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/python-mypy/rep5": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/python-mypy/rep6": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/python-mypy/rep7": [
+    16,
+    53
+  ],
+  "gpt-4.1-mini/python-mypy/rep8": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/python-mypy/rep9": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/python-mypy/rep10": [
+    51,
+    53
+  ],
+  "gpt-4.1-mini/typescript/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/typescript/rep2": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/typescript/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/typescript/rep4": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/typescript/rep5": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/typescript/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/typescript/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/typescript/rep8": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/typescript/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/typescript/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/java/rep1": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/java/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/java/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/java/rep4": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/java/rep5": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/java/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/java/rep7": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/java/rep8": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/java/rep9": [
+    52,
+    53
+  ],
+  "gpt-4.1-mini/java/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/scala/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/scala/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/scala/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/scala/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/scala/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/scala/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/scala/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/scala/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/scala/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/scala/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/rust/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/rust/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/rust/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/rust/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/rust/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/rust/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/rust/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/rust/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/rust/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/rust/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/lean/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/lean/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/lean/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/lean/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/lean/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/lean/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/lean/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/lean/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/lean/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-mini/lean/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/assembly/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/assembly/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/assembly/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/assembly/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/assembly/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/assembly/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/assembly/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/assembly/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/assembly/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/assembly/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/c/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/c/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/c/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/c/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/c/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/c/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/c/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/c/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/c/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/c/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/javascript/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/javascript/rep2": [
+    51,
+    53
+  ],
+  "gpt-4.1-nano/javascript/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/javascript/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/javascript/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/javascript/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/javascript/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/javascript/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/javascript/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/javascript/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python-mypy/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python-mypy/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python-mypy/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python-mypy/rep4": [
+    51,
+    53
+  ],
+  "gpt-4.1-nano/python-mypy/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python-mypy/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python-mypy/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python-mypy/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python-mypy/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/python-mypy/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/typescript/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/typescript/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/typescript/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/typescript/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/typescript/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/typescript/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/typescript/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/typescript/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/typescript/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/typescript/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/java/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/java/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/java/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/java/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/java/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/java/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/java/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/java/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/java/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/java/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/scala/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/scala/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/scala/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/scala/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/scala/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/scala/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/scala/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/scala/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/scala/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/scala/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/rust/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/rust/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/rust/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/rust/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/rust/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/rust/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/rust/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/rust/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/rust/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/rust/rep10": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/lean/rep1": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/lean/rep2": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/lean/rep3": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/lean/rep4": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/lean/rep5": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/lean/rep6": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/lean/rep7": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/lean/rep8": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/lean/rep9": [
+    0,
+    53
+  ],
+  "gpt-4.1-nano/lean/rep10": [
+    0,
+    53
+  ],
+  "openrouter/anthropic/claude-sonnet-4/c/rep10": [
+    52,
+    53
+  ],
+  "openrouter/anthropic/claude-sonnet-4/python/rep5": [
+    52,
+    53
+  ],
+  "openrouter/anthropic/claude-sonnet-4/rust/rep10": [
+    52,
+    53
+  ],
+  "openrouter/anthropic/claude-opus-4/c/rep8": [
+    21,
+    53
+  ],
+  "openrouter/anthropic/claude-opus-4/java/rep10": [
+    52,
+    53
+  ],
+  "openrouter/deepseek/deepseek-chat-v3-0324/c/rep3": [
+    0,
+    53
+  ],
+  "openrouter/deepseek/deepseek-chat-v3-0324/c/rep10": [
+    0,
+    53
+  ],
+  "openrouter/deepseek/deepseek-chat-v3-0324/javascript/rep7": [
+    0,
+    53
+  ],
+  "openrouter/deepseek/deepseek-chat-v3-0324/javascript/rep10": [
+    0,
+    53
+  ],
+  "openrouter/deepseek/deepseek-chat-v3-0324/python-mypy/rep5": [
+    0,
+    53
+  ],
+  "openrouter/deepseek/deepseek-chat-v3-0324/java/rep5": [
+    0,
+    53
+  ],
+  "openrouter/deepseek/deepseek-chat-v3-0324/scala/rep4": [
+    0,
+    53
+  ],
+  "openrouter/deepseek/deepseek-chat-v3-0324/scala/rep10": [
+    0,
+    53
+  ],
+  "openrouter/deepseek/deepseek-chat-v3-0324/rust/rep2": [
+    0,
+    53
+  ],
+  "openrouter/deepseek/deepseek-chat-v3-0324/lean/rep1": [
+    0,
+    53
+  ],
+  "openrouter/deepseek/deepseek-chat-v3-0324/lean/rep5": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/assembly/rep9": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/c/rep7": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/c/rep8": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/javascript/rep3": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/python-mypy/rep5": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/python-mypy/rep9": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/java/rep8": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/scala/rep5": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/scala/rep6": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/scala/rep9": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/rust/rep3": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/rust/rep5": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/rust/rep8": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/rust/rep10": [
+    0,
+    53
+  ],
+  "openrouter/meta-llama/llama-3.3-70b-instruct/lean/rep3": [
+    0,
+    53
+  ]
+}

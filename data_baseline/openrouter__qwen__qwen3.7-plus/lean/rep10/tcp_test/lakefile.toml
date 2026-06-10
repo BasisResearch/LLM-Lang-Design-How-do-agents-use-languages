@@ -1,0 +1,10 @@
+name = "tcp_test"
+version = "0.1.0"
+defaultTargets = ["tcp_test"]
+
+[[lean_lib]]
+name = "TcpTest"
+
+[[lean_exe]]
+name = "tcp_test"
+root = "Main"

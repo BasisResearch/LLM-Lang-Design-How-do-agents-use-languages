@@ -1,0 +1,2 @@
+Starting server on 0.0.0.0:5000
+Error: Os { code: 98, kind: AddrInUse, message: "Address already in use" }
