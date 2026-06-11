@@ -49,7 +49,7 @@
 {"model": "gpt-5", "language": "java", "rep": 8, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "java", "rep": 9, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 1, "passed": 53, "total": 53}
-{"model": "gpt-5", "language": "scala", "rep": 10, "passed": 0, "total": 0, "error": "server_fail"}
+{"model": "gpt-5", "language": "scala", "rep": 10, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 2, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 3, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 4, "passed": 53, "total": 53}
@@ -133,7 +133,7 @@
 {"model": "openrouter/qwen/qwen3-coder-plus", "language": "typescript", "rep": 2, "passed": 53, "total": 53}
 {"model": "openrouter/qwen/qwen3-coder-plus", "language": "typescript", "rep": 3, "passed": 53, "total": 53}
 {"model": "openrouter/qwen/qwen3-coder-plus", "language": "typescript", "rep": 4, "passed": 53, "total": 53}
-{"model": "openrouter/qwen/qwen3-coder-plus", "language": "typescript", "rep": 5, "passed": 0, "total": 0, "error": "server_fail"}
+{"model": "openrouter/qwen/qwen3-coder-plus", "language": "typescript", "rep": 5, "passed": 53, "total": 53}
 {"model": "openrouter/qwen/qwen3-coder-plus", "language": "typescript", "rep": 6, "passed": 0, "total": 0, "error": "server_fail"}
 {"model": "openrouter/qwen/qwen3-coder-plus", "language": "typescript", "rep": 7, "passed": 53, "total": 53}
 {"model": "openrouter/qwen/qwen3-coder-plus", "language": "typescript", "rep": 8, "passed": 53, "total": 53}
@@ -168,7 +168,7 @@
 {"model": "openrouter/qwen/qwen3-coder-plus", "language": "rust", "rep": 7, "passed": 52, "total": 53}
 {"model": "openrouter/qwen/qwen3-coder-plus", "language": "rust", "rep": 8, "passed": 53, "total": 53}
 {"model": "openrouter/qwen/qwen3-coder-plus", "language": "rust", "rep": 9, "passed": 24, "total": 26}
-{"model": "openrouter/qwen/qwen3-coder-plus", "language": "c", "rep": 1, "passed": 0, "total": 0, "error": "server_fail"}
+{"model": "openrouter/qwen/qwen3-coder-plus", "language": "c", "rep": 1, "passed": 53, "total": 53}
 {"model": "openrouter/qwen/qwen3-coder-plus", "language": "c", "rep": 10, "passed": 40, "total": 53}
 {"model": "openrouter/qwen/qwen3-coder-plus", "language": "c", "rep": 2, "passed": 53, "total": 53}
 {"model": "openrouter/qwen/qwen3-coder-plus", "language": "c", "rep": 3, "passed": 0, "total": 0, "error": "server_fail"}

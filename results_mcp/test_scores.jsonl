@@ -65,7 +65,7 @@
 {"model": "gpt-5", "language": "scala", "rep": 4, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 5, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 6, "passed": 53, "total": 53}
-{"model": "gpt-5", "language": "scala", "rep": 7, "passed": 0, "total": 0, "error": "server_fail"}
+{"model": "gpt-5", "language": "scala", "rep": 7, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 8, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "scala", "rep": 9, "passed": 53, "total": 53}
 {"model": "gpt-5", "language": "rust", "rep": 1, "passed": 52, "total": 53}
